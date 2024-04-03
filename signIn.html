@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="style.css">
+    <title>signIn/signUp</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="outer-container">
+            <div id="inner-container">
+                <div class="signIn">
+                    <form class="signin-form" onsubmit="return false">
+                        <h2>SignIn</h2>
+                        <input id="email-1" type="email" placeholder="Email">
+                        <div id="emailmsg"></div>
+                        <input id="password" type="password" placeholder="Password">
+                        <div id="pswdmsg"></div>
+                        <a id="forgot-password" href="#">Forgot Password ?</a>
+                        <button id="signIn-btn" class="btn" type="submit">SignIn</button>
+                        <p>Don't have any account?</p>
+                        <div id="signUp-form" style="margin-top: 2rem;">SignUp</div>
+                    </form>
+                </div>
+                <div class="signUp">
+                    <form class="signUp-form" onsubmit="return false">
+                        <h2>SignUp</h2>
+                        <input id="email-2" type="email" placeholder="Email">
+                        <input id="password1" type="password" placeholder="Password">
+                        <input Id="password2" type="password" placeholder="Confirm Password">
+                        <button id="signUp-btn" class="btn" type="submit">SignUp</button>
+                        <p>Already have an account.</p>
+                        <div id="signIn-form">SignIn</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="signIn.js"></script>
+</body>
+
+</html>
