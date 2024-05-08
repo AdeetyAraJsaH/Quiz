@@ -19,11 +19,11 @@ signUp_form.addEventListener('click', e => {
 signIn_form.addEventListener('click', e => {
     inner_container.style.transform = "rotateY(0deg)";
     // inner_container.style.boxShadow = "-10px -8px rgb(240, 212, 110)";
-    
+
 });
 
-var a = [];
-a = JSON.parse(localStorage.getItem('all_users')) ? JSON.parse(localStorage.getItem('all_users')) : [];
+
+const a = JSON.parse(localStorage.getItem('all_users')) || [];
 console.log(a);
 const hash = Object.fromEntries(
     a.map(e => [e.email, e.password]));

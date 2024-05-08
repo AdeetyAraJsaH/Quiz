@@ -140,7 +140,7 @@ input::placeholder {
 #outer-container {
     width: 280px;
     height: 450px;
-    perspective: 600px;
+    perspective: 800px;
 }
 
 #inner-container {

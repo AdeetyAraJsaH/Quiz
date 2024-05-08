@@ -1,0 +1,92 @@
+{
+    "test1@gmail.com": {
+        "userId": "TEST_COM",
+        "email": "test1@gmail.com",
+        "password": "test123"
+    },
+    "test2@gmail.com": {
+        "userId": "TEST2_COM",
+        "email": "test2@gmail.com",
+        "password": "test123"
+    },
+    "test@gmail.com": {
+        "userId": "XRPhs4eMieVUrZzYrA-jK",
+        "email": "test@gmail.com",
+        "password": "test123"
+    },
+    "test3@gmail.com": {
+        "userId": "Risik7Bb5GKwV6GzeCvQ3",
+        "email": "test3@gmail.com",
+        "password": "test123"
+    },
+    "test4@gmail.com": {
+        "userId": "d4gWRLS7opp44MKlkoTkA",
+        "email": "test4@gmail.com",
+        "password": "test123"
+    },
+    "test5@gmail.com": {
+        "userId": "rXYxvUJE19mcrXfRCysjg",
+        "email": "test5@gmail.com",
+        "password": "test123"
+    },
+    "test6@gmail.com": {
+        "userId": "ZGaZWWSSNxhnSQPP3Jr3o",
+        "email": "test6@gmail.com",
+        "password": "test123"
+    },
+    "test7@gmail.com": {
+        "userId": "7yq8pE-V6U7txJkc7Y5AQ",
+        "email": "test7@gmail.com",
+        "password": "test123"
+    },
+    "test8@gmail.com": {
+        "userId": "I7IYVVlE7b__HihrafOLB",
+        "email": "test8@gmail.com",
+        "password": "test123"
+    },
+    "test9@gmail.com": {
+        "userId": "Mt-q2Rxaa7sULmQ0U8zEj",
+        "email": "test9@gmail.com",
+        "password": "test123"
+    },
+    "test10@gmail.com": {
+        "userId": "kTNBDxBpFLZWwNH4BGsYx",
+        "email": "test10@gmail.com",
+        "password": "test123"
+    },
+    "test11@gmail.com": {
+        "userId": "7S8dYlt8SvnXAE3_6QcXD",
+        "email": "test11@gmail.com",
+        "password": "test123"
+    },
+    "test12@gmail.com": {
+        "userId": "XpDQND41oIOSOj0ZPBao_",
+        "email": "test12@gmail.com",
+        "password": "test123"
+    },
+    "test13@gmail.com": {
+        "userId": "R8mzux8bR8eZlo8Z1RTYw",
+        "email": "test13@gmail.com",
+        "password": "test123"
+    },
+    "test14@gmail.com": {
+        "userId": "WSrDMiSO2DUQTzQc_qh1o",
+        "email": "test14@gmail.com",
+        "password": "test123"
+    },
+    "test15@gmail.com": {
+        "userId": "1auPEJRsP738Nr-pJIsR9",
+        "email": "test15@gmail.com",
+        "password": "test123"
+    },
+    "test16@gmail.com": {
+        "userId": "_oceQ5pu3yi8Q2NflWFtm",
+        "email": "test16@gmail.com",
+        "password": "test123"
+    },
+    "test17@gmail.com": {
+        "userId": "NFcqF73xNhJ3VH3ws2ZlK",
+        "email": "test17@gmail.com",
+        "password": "test123"
+    }
+}

@@ -14,29 +14,29 @@ let questionCounter = 0;
 let availableQuestion = [];
 
 let questions = [];
-fetch("question.json").then(console.log(res));
-// fetch("https://opentdb.com/api.php?amount=10&category=22&difficulty=easy&type=multiple").then(res => {
-//     console.log(res);
-//     return res.json();
-// }).then(loadedQuestions => {
-//     console.log(loadedQuestions);
-//     questions=loadedQuestions.results.map(loadedQuestions => {
-//         const formattedQuestion = {
-//             question: loadedQuestions.question
-//         };
-//         const answerChoices = [...loadedQuestions.incorrect_answers];
-//         formattedQuestion.answer = Math.floor(Math.random() * 10) % 3;
-//         answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestions.correct_answer);
-//         answerChoices.forEach((choice, index) => {
-//             formattedQuestion["choice" + (index + 1)] = choice;
-//         });
-//         return formattedQuestion;
-//     });
+// fetch("question.json").then(console.log(res));
+fetch("https://opentdb.com/api.php?amount=10&category=22&difficulty=easy&type=multiple").then(res => {
+    console.log(res);
+    return res.json();
+}).then(loadedQuestions => {
+    console.log(loadedQuestions);
+    questions=loadedQuestions.results.map(loadedQuestions => {
+        const formattedQuestion = {
+            question: loadedQuestions.question
+        };
+        const answerChoices = [...loadedQuestions.incorrect_answers];
+        formattedQuestion.answer = Math.floor(Math.random() * 10) % 3;
+        answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestions.correct_answer);
+        answerChoices.forEach((choice, index) => {
+            formattedQuestion["choice" + (index + 1)] = choice;
+        });
+        return formattedQuestion;
+    });
 
-//     startGame()
-// }).catch(err => {
-//     console.error(err);
-// })
+    startGame()
+}).catch(err => {
+    console.error(err);
+})
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
